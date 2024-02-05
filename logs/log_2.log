@@ -1,0 +1,14 @@
+2024-02-04 20:58:11,247 - craigslist_scraper.client - INFO - Using api to scrape data
+2024-02-04 20:58:11,425 - craigslist_scraper.bots.api_bot.api_bot - INFO - Sent request to base url get cookie. Status code: 200
+2024-02-04 20:58:11,426 - craigslist_scraper.bots.api_bot.api_bot - DEBUG - Initialized Session cookies: <Cookies[<Cookie cl_b=4|cd43b8e0a4daf0736167876f0354c4c0d076253e|1707098291dVcVw for .craigslist.org />, <Cookie cl_tocmode=ggg%3Apic for  />]>
+2024-02-04 20:58:11,792 - craigslist_scraper.bots.api_bot.api_bot - INFO - Sent request to /.../full endpoint to get tokens. Status code: 200
+2024-02-04 20:58:11,796 - craigslist_scraper.bots.api_bot.api_bot - DEBUG -  Collected tokens: 
+            self.cache_id = 'MToBkoYJ2oPiY_5DnpxKZMRYDINL6sOc7mJSEahQOYH7TPO8DNGT8wTtLWb9ekDkpDFCdA0PIuNkzXiQYdZ_Rr9bXED8IBSg1dWr0kKcabBZFDmdxV9QGu-KepHKzGbUuos8rM0A7jc4THMRY674u-ZwXlJeqRthgtjxSPO9facgSA' 
+            self.cache_ts = 1707098291 
+            self.max_posted_ts = 1707096089 
+            self.gig_count = 673
+2024-02-04 20:58:11,796 - craigslist_scraper.bots.api_bot.api_bot - INFO - Using Craigslist API version 8
+2024-02-04 20:58:11,899 - craigslist_scraper.bots.api_bot.api_bot - INFO - Sending request to /../batch endpoint to get data. Gigs: start = 0 count = 1080
+2024-02-04 20:58:11,990 - craigslist_scraper.bots.api_bot.api_bot - INFO - Sent request to /.../batch endpoint. Status code: 200
+2024-02-04 20:58:12,019 - craigslist_scraper.client - INFO - Scraped all gigs! Number: 673
+2024-02-04 20:58:12,035 - craigslist_scraper.db_manager - INFO - Finished updating database
